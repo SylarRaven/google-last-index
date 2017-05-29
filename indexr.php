@@ -1,4 +1,4 @@
-$url = "your site url";
+$url = "your website url";
 $site = "http://webcache.googleusercontent.com/search?q=cache:$url";
 $ch = curl_init();
 $hc = "YahooSeeker-Testing/v3.9 (compatible; Mozilla 4.0; MSIE 5.5; Yahoo! Search - Web Search)";
