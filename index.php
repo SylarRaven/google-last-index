@@ -1,11 +1,4 @@
-function urlkontrolet ($url) {
-$sonuc = ereg("^[a-zA-Z0-9]+://[^ ]+$", $adres);
-if ($sonuc) { $dogru = "1"; } else { $dogru = "2"; }
-}
-
-
-error_reporting(0);
-$url = $_POST["url"];
+$url = "your site url";
 $site = "http://webcache.googleusercontent.com/search?q=cache:$url";
 $ch = curl_init();
 $hc = "YahooSeeker-Testing/v3.9 (compatible; Mozilla 4.0; MSIE 5.5; Yahoo! Search - Web Search)";
